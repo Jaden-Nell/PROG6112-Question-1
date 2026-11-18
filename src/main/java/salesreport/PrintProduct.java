@@ -6,7 +6,7 @@ public class PrintProduct {
     public PrintProduct(Product product) {
         this.product = product;
     }
-
+    // prints the sales report in a formatted table with product names, monthly sales, and total sales for each product
     public void printReport(String[] productNames, String[] months, int[][] monthlySales) {
         System.out.println("MATTRESS SALES REPORT");
         System.out.println();

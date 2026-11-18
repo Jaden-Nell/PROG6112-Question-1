@@ -9,7 +9,7 @@ public class Main {
 
         int[][] monthlySales = new int[productNames.length][months.length];
         Scanner input = new Scanner(System.in);
-
+        // Asks user to inptut the sales for each product for each month
         for (int product = 0; product < productNames.length; product++) {
             for (int month = 0; month < months.length; month++) {
                 int sales = -1;
@@ -37,7 +37,7 @@ public class Main {
                 monthlySales[product][month] = sales;
             }
         }
-
+        // Outputs the sales report
         input.close();
         System.out.println();
 

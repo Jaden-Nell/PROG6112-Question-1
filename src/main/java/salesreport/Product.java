@@ -24,7 +24,7 @@ public class Product implements IProduct {
     public double GetAverageProductSold() {
         return (double) GetTotalProductsSold() / productNames.length;
     }
-
+    // Finds the most popular product based on the total sales for each product
     @Override
     public String GetMostPopularProduct() {
         int mostPopularIndex = 0;

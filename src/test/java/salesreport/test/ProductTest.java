@@ -14,7 +14,7 @@ class ProductTest {
             {14, 17, 19}
         }
     );
-
+    // Tests the GetMostPopularProduct method of the Product class
     @Test
     void GetTotalProductSales_WithValidData_ReturnsCorrectValue() {
         assertEquals(151, product.GetTotalProductsSold());
